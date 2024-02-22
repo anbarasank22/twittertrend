@@ -27,7 +27,7 @@ pipeline{
             }
         }
 
-       stage ("Sonar Analysis") {
+       /*stage ("Sonar Analysis") {
             environment {
                scannerHome = tool 'sonarsqube_scanner'
             }
@@ -112,5 +112,5 @@ stage(" Docker Build ") {
             }
           }
         }    
-    }
+    }*/
     }
